@@ -1,7 +1,7 @@
 "use strict";
 
 module.exports = async (event, context) => {
-  // abc console.log(JSON.stringify(event.body));
+  // console.log(JSON.stringify(event.body));
   const scenarioParams = event.body.scenario_params;
   const currentPoint = Number(scenarioParams.currentPoint);
   const addPoint = Number(scenarioParams.addPoint);
